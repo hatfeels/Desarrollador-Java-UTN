@@ -1,0 +1,38 @@
+package primerproyecto;
+
+import java.util.Scanner;
+
+public class Clase1 {
+
+	public static void main(String[] args) {
+
+		
+		Scanner obj = new Scanner(System.in);
+		
+		// a)
+		
+		//int inicio = 4;
+		
+		//int fin = 15;
+		
+		//while (inicio< fin ) {
+		// System.out.println(inicio);
+		//inicio++;
+		//}
+		
+		//b)
+		
+		int inicio = 4;
+		int fin = 15 ;
+		
+		while (inicio < fin) {
+			if (inicio % 2 == 0) {
+				System.out.println(inicio);
+			}
+			inicio++;
+		}
+		
+
+	}
+
+}

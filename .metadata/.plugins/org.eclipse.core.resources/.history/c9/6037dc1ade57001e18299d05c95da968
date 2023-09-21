@@ -1,0 +1,18 @@
+package primerproyecto;
+
+public class Clase1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int inicio = 4;
+		
+		int fin = 15;
+		
+		while (inicio< fin ) {
+			System.out.println(inicio);
+			inicio++;
+		}
+
+	}
+
+}

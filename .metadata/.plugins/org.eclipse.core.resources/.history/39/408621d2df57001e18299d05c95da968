@@ -1,0 +1,71 @@
+package primerproyecto;
+
+import java.util.Scanner;
+
+public class Clase1 {
+
+	public static void main(String[] args) {
+
+		
+		
+		/*a)
+		**
+		*int inicio = 4;
+		*
+		*int fin = 15;
+		*
+		*while (inicio< fin ) {
+		*System.out.println(inicio);
+		*inicio++;
+		*}
+		*
+		*b)
+		*
+		*int inicio = 4;
+		*int fin = 15 ;
+		*
+		*while (inicio < fin) {
+		*	if (inicio % 2 == 0) {
+		*		System.out.println(inicio);
+		*}
+		*	inicio++;
+		*}
+		*/
+		
+		//c)
+		
+		
+		
+		Scanner obj = new Scanner(System.in);
+		System.out.println("par o inpar?");
+		String orden = obj.nextLine();
+		
+		
+		int inicio = 4;
+		int fin = 15 ;
+		switch (orden) {
+		case "par":
+			while (inicio < fin) {
+			if (inicio % 2 == 0) {
+				System.out.println(inicio);
+			}
+			inicio++;
+		}
+			break;
+		case "inpar":
+			while (inicio < fin) {
+			if (inicio % 2 == 0) {
+				System.out.println(inicio);
+			}
+			inicio++;
+		}
+			break;
+			default:
+				System.out.println("Debe escribir par o inpar");
+			break;
+		}
+		
+		
+	}
+
+}

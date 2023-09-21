@@ -1,0 +1,21 @@
+package primerproyecto;
+
+public class Bucle {
+
+	public static void main(String[] args) {
+
+		int i = 4;
+		
+		while (i < 15) {
+			System.out.println(i);
+			i = i + 1;
+		}
+		
+		
+		for (int j = 15; j > 0; j--) {
+			System.out.println(j);
+		}
+		
+	}
+
+}
